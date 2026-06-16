@@ -1,0 +1,23 @@
+# Large files
+FourCastNet/data/stats/time_means.npy
+FourCastNet/data/out_of_sample/2018.h5
+FourCastNet/weights/pruned models/pruned_4_layers.ckpt
+FourCastNet/weights/pruned models/pruned_3_layers.ckpt
+FourCastNet/weights/pruned models/pruned_6_layers.ckpt
+FourCastNet/weights/pruned models/pruned_1_layers.ckpt
+FourCastNet/weights/pruned models/pruned_5_layers.ckpt
+FourCastNet/weights/pruned models/pruned_2_layers.ckpt
+FourCastNet/weights/fine-tuned models/pruned_4_layers_epoch_6.ckpt
+FourCastNet/weights/fine-tuned models/pruned_1_layers_epoch_6.ckpt
+FourCastNet/weights/fine-tuned models/pruned_6_layers_epoch_6.ckpt
+FourCastNet/weights/fine-tuned models/pruned_2_layers_epoch_6.ckpt
+FourCastNet/weights/fine-tuned models/pruned_3_layers_epoch_6.ckpt
+FourCastNet/weights/fine-tuned models/pruned_5_layers_epoch_6.ckpt
+FourCastNet/weights/fine-tuned models/backbone_epoch_6.ckpt
+FourCastNet/weights/precip.ckpt
+FourCastNet/weights/backbone.ckpt
+FourCastNet/weights/quantized models/backbone_fp16.ckpt
+FourCastNet/weights/quantized models/pruned_3_fp16.ckpt
+FourCastNet/weights/quantized models/pruned_1_fp16.ckpt
+FourCastNet/weights/quantized models/pruned_4_fp16.ckpt
+FourCastNet/weights/quantized models/pruned_2_fp16.ckpt

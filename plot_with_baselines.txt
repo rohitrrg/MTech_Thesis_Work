@@ -1,0 +1,24 @@
+nohup: ignoring input
+/home/gpuuser0/gpuuser0_a/miniconda3/envs/rohitg/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.16) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+/home/gpuuser0/gpuuser0_a/miniconda3/envs/rohitg/lib/python3.10/site-packages/google/api_core/_python_version_support.py:273: FutureWarning: You are using a Python version (3.10.16) which Google will stop supporting in new releases of google.cloud.storage_control_v2 once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.cloud.storage_control_v2 past that date.
+  warnings.warn(message, FutureWarning)
+Loaded 2100 rows from 15 CSV files
+Traceback (most recent call last):
+  File "/home/gpuuser0/gpuuser0_a/rohit/rohitg/weather-models/FourCastNet/FourCastNet/plot_with_baselines.py", line 238, in <module>
+    main()
+  File "/home/gpuuser0/gpuuser0_a/rohit/rohitg/weather-models/FourCastNet/FourCastNet/plot_with_baselines.py", line 218, in main
+    era5 = _select_variables(_open_zarr(ERA5_PATH))
+  File "/home/gpuuser0/gpuuser0_a/rohit/rohitg/weather-models/FourCastNet/FourCastNet/plot_with_baselines.py", line 94, in _select_variables
+    return xr.Dataset(out)
+  File "/home/gpuuser0/gpuuser0_a/miniconda3/envs/rohitg/lib/python3.10/site-packages/xarray/core/dataset.py", line 389, in __init__
+    variables, coord_names, dims, indexes, _ = merge_data_and_coords(
+  File "/home/gpuuser0/gpuuser0_a/miniconda3/envs/rohitg/lib/python3.10/site-packages/xarray/structure/merge.py", line 1082, in merge_data_and_coords
+    return merge_core(
+  File "/home/gpuuser0/gpuuser0_a/miniconda3/envs/rohitg/lib/python3.10/site-packages/xarray/structure/merge.py", line 709, in merge_core
+    variables, out_indexes = merge_collected(
+  File "/home/gpuuser0/gpuuser0_a/miniconda3/envs/rohitg/lib/python3.10/site-packages/xarray/structure/merge.py", line 302, in merge_collected
+    merged_vars[name] = unique_variable(
+  File "/home/gpuuser0/gpuuser0_a/miniconda3/envs/rohitg/lib/python3.10/site-packages/xarray/structure/merge.py", line 150, in unique_variable
+    raise MergeError(
+xarray.structure.merge.MergeError: conflicting values for variable 'level' on objects to be combined. You can skip this check by specifying compat='override'.

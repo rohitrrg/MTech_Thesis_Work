@@ -1,0 +1,15 @@
+# Abstract
+
+The advent of deep learning has sparked a revolution in scientific computing, offering a powerful new paradigm for modeling complex physical systems. In meteorology, traditional Numerical Weather Prediction (NWP) models, while remarkably accurate, demand immense computational resources, limiting their accessibility and rapid deployment. This booklet documents an extensive investigation into data-driven weather forecasting, with a specific focus on creating computationally efficient yet skillful models. Our central thesis is that a combination of structured model pruning and numerical quantization can lead to AI-based weather emulators that are significantly faster and smaller than their baseline counterparts, while retaining a high degree of forecast accuracy.
+
+This research is anchored in a model architecture inspired by NVIDIA's FourCastNet, which leverages the Adaptive Fourier Neural Operator (AFNO) to learn the intricate dynamics of global weather patterns from the ERA5 reanalysis dataset. Starting with a full-scale `backbone` model, we embarked on a systematic campaign of optimizations.
+
+First, we employed a coarse-grained structured pruning technique, progressively removing entire AFNO layers from the network. This created a family of six smaller models (`pruned_1` through `pruned_6`), allowing us to meticulously map the relationship between model depth, parameter count, and predictive skill.
+
+Second, we applied post-training quantization, converting the model weights from high-precision 32-bit floating-point (FP32) numbers to the more efficient 16-bit format (FP16). This technique was applied to both the original `backbone` and all pruned variants, effectively doubling the number of models under investigation and opening a second axis of optimization.
+
+The performance of each model was rigorously evaluated against the held-out 2018 dataset. We measured forecast skill using two standard meteorological metrics: Root Mean Square Error (RMSE) and Anomaly Correlation Coefficient (ACC), for key atmospheric variables such as `z500`, `t850`, and `t2m`. To provide a clear context for performance, all AI models were benchmarked against the established baselines of Persistence and Climatology.
+
+Our results present a compelling case for our thesis. We demonstrate that significant computational gains—in some cases, speedups exceeding 3x—can be achieved with only a marginal and graceful degradation in forecast accuracy. This booklet will walk you through every phase of this journey: the architectural foundations, the rationale behind our optimization choices, a comprehensive presentation of the results with detailed tables and figures, and a thorough analysis of the trade-offs between computational efficiency and forecast fidelity. It is intended to serve as a complete record of our experiments and a practical guide to the methods we employed.
+
+*(Note: Full citations for all referenced works are available in the `references.md` file.)*

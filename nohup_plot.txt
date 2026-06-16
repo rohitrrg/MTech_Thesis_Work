@@ -1,0 +1,4 @@
+nohup: ignoring input
+usage: plot_rmse_from_csv.py [-h] [--results-dir RESULTS_DIR]
+                             [--output OUTPUT]
+plot_rmse_from_csv.py: error: unrecognized arguments: --csv results_all_models.csv
