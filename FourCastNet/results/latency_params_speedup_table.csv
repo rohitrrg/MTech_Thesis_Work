@@ -1,0 +1,8 @@
+Model,Parameters,Latency (ms),Speedup
+backbone,74.7M,284,1.00x
+pruned_1_layers_epoch_6,—,130,2.18x
+pruned_2_layers_epoch_6,—,119,2.39x
+pruned_3_layers_epoch_6,—,107,2.65x
+pruned_4_layers_epoch_6,—,96,2.96x
+pruned_5_layers_epoch_6,—,84,3.38x
+pruned_6_layers_epoch_6,—,73,3.89x

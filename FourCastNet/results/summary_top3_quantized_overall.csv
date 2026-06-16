@@ -1,0 +1,4 @@
+model_name,is_pruned,is_quant,mean_rmse_abs_diff
+backbone_fp16,False,True,
+pruned_1_fp16,True,True,
+pruned_2_fp16,True,True,

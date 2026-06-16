@@ -1,0 +1,4 @@
+model_name,is_pruned,is_quant,mean_rmse_abs_diff
+pruned_1_layers_epoch_6,True,False,14.480140026008854
+pruned_2_layers_epoch_6,True,False,14.657419121503258
+pruned_4_layers_epoch_6,True,False,23.62328554248082

@@ -1,0 +1,10 @@
+Model,6h RMSE,24h RMSE,72h RMSE
+backbone,0.58,1.03,2.25
+pruned_1_layers_epoch_6,0.59,1.08,2.46
+pruned_2_layers_epoch_6,0.6,1.11,2.52
+pruned_3_layers_epoch_6,0.61,1.15,2.74
+pruned_4_layers_epoch_6,0.64,1.21,2.72
+pruned_5_layers_epoch_6,0.68,1.27,2.93
+pruned_6_layers_epoch_6,0.74,1.35,2.99
+persistence,2.24,4.09,5.1
+climatology,4.22,4.19,4.19

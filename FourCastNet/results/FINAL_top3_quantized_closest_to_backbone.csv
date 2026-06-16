@@ -1,0 +1,4 @@
+model_name,rmse_abs_diff
+backbone_fp16,
+pruned_1_fp16,
+pruned_2_fp16,
