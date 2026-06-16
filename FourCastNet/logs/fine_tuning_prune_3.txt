@@ -1,0 +1,224 @@
+Dept Inside AFNONet: 9
+Starting Fine-Tuning...
+Epoch [1/6], Step [0/2918], Loss: 0.137620
+Epoch [1/6], Step [100/2918], Loss: 0.022244
+Epoch [1/6], Step [200/2918], Loss: 0.016509
+Epoch [1/6], Step [300/2918], Loss: 0.012412
+Epoch [1/6], Step [400/2918], Loss: 0.012982
+Epoch [1/6], Step [500/2918], Loss: 0.013220
+Epoch [1/6], Step [600/2918], Loss: 0.013223
+Epoch [1/6], Step [700/2918], Loss: 0.010433
+Epoch [1/6], Step [800/2918], Loss: 0.013378
+Epoch [1/6], Step [900/2918], Loss: 0.010651
+Epoch [1/6], Step [1000/2918], Loss: 0.009880
+Epoch [1/6], Step [1100/2918], Loss: 0.009749
+Epoch [1/6], Step [1200/2918], Loss: 0.009502
+Epoch [1/6], Step [1300/2918], Loss: 0.009657
+Epoch [1/6], Step [1400/2918], Loss: 0.009484
+Epoch [1/6], Step [1500/2918], Loss: 0.009369
+Epoch [1/6], Step [1600/2918], Loss: 0.011246
+Epoch [1/6], Step [1700/2918], Loss: 0.009251
+Epoch [1/6], Step [1800/2918], Loss: 0.008912
+Epoch [1/6], Step [1900/2918], Loss: 0.010741
+Epoch [1/6], Step [2000/2918], Loss: 0.010958
+Epoch [1/6], Step [2100/2918], Loss: 0.010637
+Epoch [1/6], Step [2200/2918], Loss: 0.011324
+Epoch [1/6], Step [2300/2918], Loss: 0.010104
+Epoch [1/6], Step [2400/2918], Loss: 0.008583
+Epoch [1/6], Step [2500/2918], Loss: 0.010038
+Epoch [1/6], Step [2600/2918], Loss: 0.011237
+Epoch [1/6], Step [2700/2918], Loss: 0.010930
+Epoch [1/6], Step [2800/2918], Loss: 0.010333
+Epoch [1/6], Step [2900/2918], Loss: 0.011558
+Dept Inside AFNONet: 9
+
+--- Results for weights/fine-tuned models/pruned_3_layers_epoch_1.ckpt ---
+Avg Latency: 107.44 ms (±0.07)
+Avg Z500 RMSE: 48.54 m^2/s^2
+Avg T850 RMSE: 0.60 K
+Avg Z500 ACC:  0.9989
+Epoch [2/6], Step [0/2918], Loss: 0.008257
+Epoch [2/6], Step [100/2918], Loss: 0.008393
+Epoch [2/6], Step [200/2918], Loss: 0.010092
+Epoch [2/6], Step [300/2918], Loss: 0.007963
+Epoch [2/6], Step [400/2918], Loss: 0.008306
+Epoch [2/6], Step [500/2918], Loss: 0.009798
+Epoch [2/6], Step [600/2918], Loss: 0.010296
+Epoch [2/6], Step [700/2918], Loss: 0.010248
+Epoch [2/6], Step [800/2918], Loss: 0.007881
+Epoch [2/6], Step [900/2918], Loss: 0.010313
+Epoch [2/6], Step [1000/2918], Loss: 0.011054
+Epoch [2/6], Step [1100/2918], Loss: 0.008436
+Epoch [2/6], Step [1200/2918], Loss: 0.008268
+Epoch [2/6], Step [1300/2918], Loss: 0.008217
+Epoch [2/6], Step [1400/2918], Loss: 0.007998
+Epoch [2/6], Step [1500/2918], Loss: 0.009371
+Epoch [2/6], Step [1600/2918], Loss: 0.008310
+Epoch [2/6], Step [1700/2918], Loss: 0.007221
+Epoch [2/6], Step [1800/2918], Loss: 0.009489
+Epoch [2/6], Step [1900/2918], Loss: 0.009612
+Epoch [2/6], Step [2000/2918], Loss: 0.010292
+Epoch [2/6], Step [2100/2918], Loss: 0.008996
+Epoch [2/6], Step [2200/2918], Loss: 0.010435
+Epoch [2/6], Step [2300/2918], Loss: 0.009708
+Epoch [2/6], Step [2400/2918], Loss: 0.008300
+Epoch [2/6], Step [2500/2918], Loss: 0.008048
+Epoch [2/6], Step [2600/2918], Loss: 0.008111
+Epoch [2/6], Step [2700/2918], Loss: 0.007459
+Epoch [2/6], Step [2800/2918], Loss: 0.007436
+Epoch [2/6], Step [2900/2918], Loss: 0.010145
+Dept Inside AFNONet: 9
+
+--- Results for weights/fine-tuned models/pruned_3_layers_epoch_2.ckpt ---
+Avg Latency: 107.47 ms (±0.05)
+Avg Z500 RMSE: 44.21 m^2/s^2
+Avg T850 RMSE: 0.58 K
+Avg Z500 ACC:  0.9991
+Epoch [3/6], Step [0/2918], Loss: 0.007779
+Epoch [3/6], Step [100/2918], Loss: 0.009192
+Epoch [3/6], Step [200/2918], Loss: 0.007375
+Epoch [3/6], Step [300/2918], Loss: 0.009760
+Epoch [3/6], Step [400/2918], Loss: 0.008176
+Epoch [3/6], Step [500/2918], Loss: 0.010307
+Epoch [3/6], Step [600/2918], Loss: 0.009651
+Epoch [3/6], Step [700/2918], Loss: 0.008881
+Epoch [3/6], Step [800/2918], Loss: 0.007032
+Epoch [3/6], Step [900/2918], Loss: 0.007303
+Epoch [3/6], Step [1000/2918], Loss: 0.007729
+Epoch [3/6], Step [1100/2918], Loss: 0.010169
+Epoch [3/6], Step [1200/2918], Loss: 0.009285
+Epoch [3/6], Step [1300/2918], Loss: 0.007607
+Epoch [3/6], Step [1400/2918], Loss: 0.008004
+Epoch [3/6], Step [1500/2918], Loss: 0.009490
+Epoch [3/6], Step [1600/2918], Loss: 0.007420
+Epoch [3/6], Step [1700/2918], Loss: 0.009500
+Epoch [3/6], Step [1800/2918], Loss: 0.006950
+Epoch [3/6], Step [1900/2918], Loss: 0.009777
+Epoch [3/6], Step [2000/2918], Loss: 0.010194
+Epoch [3/6], Step [2100/2918], Loss: 0.007461
+Epoch [3/6], Step [2200/2918], Loss: 0.009211
+Epoch [3/6], Step [2300/2918], Loss: 0.009123
+Epoch [3/6], Step [2400/2918], Loss: 0.007571
+Epoch [3/6], Step [2500/2918], Loss: 0.009648
+Epoch [3/6], Step [2600/2918], Loss: 0.009609
+Epoch [3/6], Step [2700/2918], Loss: 0.007709
+Epoch [3/6], Step [2800/2918], Loss: 0.007636
+Epoch [3/6], Step [2900/2918], Loss: 0.007174
+Dept Inside AFNONet: 9
+
+--- Results for weights/fine-tuned models/pruned_3_layers_epoch_3.ckpt ---
+Avg Latency: 107.58 ms (±0.79)
+Avg Z500 RMSE: 42.80 m^2/s^2
+Avg T850 RMSE: 0.57 K
+Avg Z500 ACC:  0.9992
+Epoch [4/6], Step [0/2918], Loss: 0.009331
+Epoch [4/6], Step [100/2918], Loss: 0.006791
+Epoch [4/6], Step [200/2918], Loss: 0.010290
+Epoch [4/6], Step [300/2918], Loss: 0.007580
+Epoch [4/6], Step [400/2918], Loss: 0.010096
+Epoch [4/6], Step [500/2918], Loss: 0.007686
+Epoch [4/6], Step [600/2918], Loss: 0.008147
+Epoch [4/6], Step [700/2918], Loss: 0.007238
+Epoch [4/6], Step [800/2918], Loss: 0.008345
+Epoch [4/6], Step [900/2918], Loss: 0.007267
+Epoch [4/6], Step [1000/2918], Loss: 0.007618
+Epoch [4/6], Step [1100/2918], Loss: 0.010374
+Epoch [4/6], Step [1200/2918], Loss: 0.007045
+Epoch [4/6], Step [1300/2918], Loss: 0.007650
+Epoch [4/6], Step [1400/2918], Loss: 0.009660
+Epoch [4/6], Step [1500/2918], Loss: 0.007719
+Epoch [4/6], Step [1600/2918], Loss: 0.007564
+Epoch [4/6], Step [1700/2918], Loss: 0.007073
+Epoch [4/6], Step [1800/2918], Loss: 0.007306
+Epoch [4/6], Step [1900/2918], Loss: 0.008511
+Epoch [4/6], Step [2000/2918], Loss: 0.009350
+Epoch [4/6], Step [2100/2918], Loss: 0.007645
+Epoch [4/6], Step [2200/2918], Loss: 0.009181
+Epoch [4/6], Step [2300/2918], Loss: 0.008054
+Epoch [4/6], Step [2400/2918], Loss: 0.009251
+Epoch [4/6], Step [2500/2918], Loss: 0.007566
+Epoch [4/6], Step [2600/2918], Loss: 0.007571
+Epoch [4/6], Step [2700/2918], Loss: 0.007819
+Epoch [4/6], Step [2800/2918], Loss: 0.007353
+Epoch [4/6], Step [2900/2918], Loss: 0.009636
+Dept Inside AFNONet: 9
+
+--- Results for weights/fine-tuned models/pruned_3_layers_epoch_4.ckpt ---
+Avg Latency: 107.51 ms (±0.58)
+Avg Z500 RMSE: 41.88 m^2/s^2
+Avg T850 RMSE: 0.56 K
+Avg Z500 ACC:  0.9992
+Epoch [5/6], Step [0/2918], Loss: 0.009332
+Epoch [5/6], Step [100/2918], Loss: 0.006755
+Epoch [5/6], Step [200/2918], Loss: 0.009746
+Epoch [5/6], Step [300/2918], Loss: 0.006995
+Epoch [5/6], Step [400/2918], Loss: 0.007257
+Epoch [5/6], Step [500/2918], Loss: 0.007122
+Epoch [5/6], Step [600/2918], Loss: 0.009401
+Epoch [5/6], Step [700/2918], Loss: 0.007572
+Epoch [5/6], Step [800/2918], Loss: 0.009491
+Epoch [5/6], Step [900/2918], Loss: 0.007644
+Epoch [5/6], Step [1000/2918], Loss: 0.009734
+Epoch [5/6], Step [1100/2918], Loss: 0.006726
+Epoch [5/6], Step [1200/2918], Loss: 0.007042
+Epoch [5/6], Step [1300/2918], Loss: 0.007598
+Epoch [5/6], Step [1400/2918], Loss: 0.008644
+Epoch [5/6], Step [1500/2918], Loss: 0.007142
+Epoch [5/6], Step [1600/2918], Loss: 0.007340
+Epoch [5/6], Step [1700/2918], Loss: 0.009635
+Epoch [5/6], Step [1800/2918], Loss: 0.007202
+Epoch [5/6], Step [1900/2918], Loss: 0.009030
+Epoch [5/6], Step [2000/2918], Loss: 0.009422
+Epoch [5/6], Step [2100/2918], Loss: 0.007369
+Epoch [5/6], Step [2200/2918], Loss: 0.009794
+Epoch [5/6], Step [2300/2918], Loss: 0.007118
+Epoch [5/6], Step [2400/2918], Loss: 0.007481
+Epoch [5/6], Step [2500/2918], Loss: 0.007063
+Epoch [5/6], Step [2600/2918], Loss: 0.009629
+Epoch [5/6], Step [2700/2918], Loss: 0.008623
+Epoch [5/6], Step [2800/2918], Loss: 0.007580
+Epoch [5/6], Step [2900/2918], Loss: 0.009659
+Dept Inside AFNONet: 9
+
+--- Results for weights/fine-tuned models/pruned_3_layers_epoch_5.ckpt ---
+Avg Latency: 107.45 ms (±0.05)
+Avg Z500 RMSE: 41.00 m^2/s^2
+Avg T850 RMSE: 0.56 K
+Avg Z500 ACC:  0.9992
+Epoch [6/6], Step [0/2918], Loss: 0.009153
+Epoch [6/6], Step [100/2918], Loss: 0.009545
+Epoch [6/6], Step [200/2918], Loss: 0.008551
+Epoch [6/6], Step [300/2918], Loss: 0.009366
+Epoch [6/6], Step [400/2918], Loss: 0.007256
+Epoch [6/6], Step [500/2918], Loss: 0.007074
+Epoch [6/6], Step [600/2918], Loss: 0.009711
+Epoch [6/6], Step [700/2918], Loss: 0.008490
+Epoch [6/6], Step [800/2918], Loss: 0.009839
+Epoch [6/6], Step [900/2918], Loss: 0.006719
+Epoch [6/6], Step [1000/2918], Loss: 0.009300
+Epoch [6/6], Step [1100/2918], Loss: 0.008597
+Epoch [6/6], Step [1200/2918], Loss: 0.008443
+Epoch [6/6], Step [1300/2918], Loss: 0.007418
+Epoch [6/6], Step [1400/2918], Loss: 0.008976
+Epoch [6/6], Step [1500/2918], Loss: 0.007598
+Epoch [6/6], Step [1600/2918], Loss: 0.008791
+Epoch [6/6], Step [1700/2918], Loss: 0.007636
+Epoch [6/6], Step [1800/2918], Loss: 0.009320
+Epoch [6/6], Step [1900/2918], Loss: 0.006754
+Epoch [6/6], Step [2000/2918], Loss: 0.008900
+Epoch [6/6], Step [2100/2918], Loss: 0.009532
+Epoch [6/6], Step [2200/2918], Loss: 0.007362
+Epoch [6/6], Step [2300/2918], Loss: 0.007672
+Epoch [6/6], Step [2400/2918], Loss: 0.009076
+Epoch [6/6], Step [2500/2918], Loss: 0.007718
+Epoch [6/6], Step [2600/2918], Loss: 0.009967
+Epoch [6/6], Step [2700/2918], Loss: 0.006821
+Epoch [6/6], Step [2800/2918], Loss: 0.009016
+Epoch [6/6], Step [2900/2918], Loss: 0.007683
+Dept Inside AFNONet: 9
+
+--- Results for weights/fine-tuned models/pruned_3_layers_epoch_6.ckpt ---
+Avg Latency: 107.49 ms (±0.37)
+Avg Z500 RMSE: 40.63 m^2/s^2
+Avg T850 RMSE: 0.55 K
+Avg Z500 ACC:  0.9992
