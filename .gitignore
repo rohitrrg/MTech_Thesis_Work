@@ -21,3 +21,7 @@ FourCastNet/weights/quantized models/pruned_3_fp16.ckpt
 FourCastNet/weights/quantized models/pruned_1_fp16.ckpt
 FourCastNet/weights/quantized models/pruned_4_fp16.ckpt
 FourCastNet/weights/quantized models/pruned_2_fp16.ckpt
+
+# other files
+feedback.md
+.pdf # ignore all pdf files
