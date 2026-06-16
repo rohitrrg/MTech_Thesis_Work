@@ -15,8 +15,7 @@ utils/.ipynb_checkpoints/*
 ray_results
 *.pdf
 *.svg
-data/
-weights/
+data/*
+weights/*
 __pycache__/
-results/
 globusconnectpersonal-3.2.8/
